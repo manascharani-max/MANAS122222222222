@@ -1,0 +1,16 @@
+# a list of numbers 
+numbers = ["a", "b", "c", "d", "e",23,3.5]
+print(numbers)
+print(numbers[5])
+print(numbers[0])
+print(numbers[2:5])
+print(len(numbers))
+numbers.append(9)
+print("after append operation",numbers)
+numbers.insert(7,1)
+print("after insert operation",numbers)
+numbers.pop(1)
+print("after pop operation",numbers)
+numbers.remove(9)
+print("after remove operations",numbers)
+print("after reverse ",numbers[::-1])
